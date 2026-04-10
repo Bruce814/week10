@@ -45,6 +45,7 @@
 
    ```bash
    python scripts/ingest.py --source data/raw --chunk-size 300 --chunk-overlap 50
+   python -m scripts.ingest --source data
    ```
 
    命令执行后会生成或更新：
