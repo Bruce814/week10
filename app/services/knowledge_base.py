@@ -133,7 +133,7 @@ if __name__ == "__main__":
     #datas = pd.read_csv(path, encoding='utf-8')
     #print(datas.head())
     import csv
-    with open('D:/projects/classes/week10/week10/data/me/儿科5-14000.csv', 'r') as r:
+    with open('D:/learn/AI/project/gitProject/week10/data/me/儿科5-14000.csv', 'r') as r:
         reader = csv.reader(r)
 
         datas = list()
