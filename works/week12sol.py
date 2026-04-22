@@ -25,7 +25,7 @@ torch.manual_seed(1337)
 # 实际使用时建议读取一个包含几万首唐诗的 .txt 文件
 # 这里为了演示，我们提供几首著名的诗作为训练集
 raw_text = ''
-with open('D:/projects/classes/week10/week10/data/poetry.txt', 'r', encoding='utf-8') as r:
+with open('D:/learn/AI/project/gitProject/week10/data/poetry.txt', 'r', encoding='utf-8') as r:
     for line in r.readlines():
         raw_text += '\n' + line.strip().split(':')[-1]
 
